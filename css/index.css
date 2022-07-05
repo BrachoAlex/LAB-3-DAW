@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  text-align: center;
+  flex-flow: row wrap;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 body {
@@ -11,4 +16,16 @@ body {
 .logo > img {
   width: 50px;
 }
+@media all and (min-width: 1025){
+  .main{
+    flex: 1;
+  }
+  .menu{
+    flex: 1;
+  }
+
+ }
+
+
+
 
